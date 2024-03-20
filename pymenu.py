@@ -90,15 +90,15 @@ class Menu:
     s.mo(v,s.r[3],1)
    r=wait_key(0,1,2,3,4,5,17,52)
 
-
-print(Menu("Game Settings","Start Game",
- ["Speed",9]+list(range(1,26)),
- ["Power",1]+list(range(1,21)),
- ["Size",9]+list(range(1,51)),
- ["Added Score",0]+list(range(1,21)),
- ["Expert Mode",1,"Yes","No"],
- ["Gost Snake",1,"Yes","No"],
- ["Darkmode",0,"Enabled","Disabled"],
- ["Rainbow",1,"On","Off"],
- ["Walls",0,"Yes","No"]
-).open())
+if __name__ == '__main__':
+ print(Menu("Game Settings","Start Game",
+  ["Speed",9]+list(range(1,26)),
+  ["Power",1]+list(range(1,21)),
+  ["Size",9]+list(range(1,51)),
+  ["Added Score",0]+list(range(1,21)),
+  ["Expert Mode",1,"Yes","No"],
+  ["Gost Snake",1,"Yes","No"],
+  ["Darkmode",0,"Enabled","Disabled"],
+  ["Rainbow",1,"On","Off"],
+  ["Walls",0,"Yes","No"]
+ ).open())

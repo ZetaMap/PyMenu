@@ -30,6 +30,7 @@ To validate the menu, press **EXE** or **OK** on the action label, this will ret
 
 ## To go further...
 You can change all colors of menu, the palette is stored in this variable : ``Menu.colors``, and formatted like this:
+
   0) Default font color in darkmode or the background color in light mode.
   1) Background color in darkmode or the default font color in light mode.
   2) Font color for not selected options values.
@@ -66,7 +67,7 @@ The title is limited to **25 characters**, the confirm action to **28 characters
 
 **Menu.open()**:
 * Parameters: *no parameters*
-* Description: Open the menu and display everything beautifully =).
+* Description: Open the menu, display everything beautifully =), and return selected values.
 
 **Menu.close()**:
 * Parameters: *no parameters*

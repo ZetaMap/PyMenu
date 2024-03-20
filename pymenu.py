@@ -1,10 +1,10 @@
-"""Documentation: https://my.numworks.com/python/zetamap/pymenu"""
+"""Documentation: https://github.com/ZetaMap/PyMenu"""
 from kandinsky import fill_rect as fr,draw_string as ds
 from ion import keydown as kd
 
-def wait_key(*b):
- while b:
-  for i in b:
+def wait_key(*k):
+ while k:
+  for i in k:
    if kd(i):
     while kd(i):pass
     return i
